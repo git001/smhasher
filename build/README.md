@@ -15,6 +15,12 @@ make             # run make to build the executable
 time ./SMHasher  # run the executable, timing how long it takes
 ```
 
+## cleanup Build directory
+
+```
+cd build
+cmake -P clean-all.cmake
+```
 ## Sample output
 
 An example run-time of `./SMHasher` is 25 minutes. 

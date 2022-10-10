@@ -3,3 +3,5 @@
 # But DO include its readme
 !/build/README.md
 
+# Include the cmake cleanup file
+!/build/clean-all.cmake

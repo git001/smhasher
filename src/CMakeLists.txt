@@ -2,6 +2,11 @@ project(SMHasher)
 
 cmake_minimum_required(VERSION 2.4)
 
+add_custom_target(clean-all
+   COMMAND ${CMAKE_BUILD_TOOL} clean
+   COMMAND ${CMAKE_COMMAND} -P clean-all.cmake
+)
+
 set(CMAKE_BUILD_TYPE Release)
 
 add_library(
